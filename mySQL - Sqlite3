@@ -1,0 +1,18 @@
+The primary difference between SQLite3 and MySQL lies in their architecture:
+
+SQLite3 is a serverless, file-based database engine embedded directly into applications,
+while MySQL is a client-server database that runs as a separate process over a network.
+
+When to Use Which
+
+Choose SQLite3 for:
+    Mobile apps (iOS/Android) and desktop software.
+    IoT, edge computing, or embedded devices with limited resources.
+    Local development, rapid prototyping, and automated testing.
+    Read-heavy applications with low write concurrency.
+
+Choose MySQL for:
+    High-traffic websites and web applications (e.g., e-commerce, social media).
+    Scenarios requiring multiple simultaneous writers.
+    Applications needing fine-grained user access control (different permissions for different users).
+    Scalable enterprise-grade systems with high availability requirements
