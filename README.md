@@ -44,6 +44,7 @@ cd Student-Management-System-using-mySQL-App14
 **2. Install Dependencies**
 ```bash
 pip install PyQt6
+mysql-connector-python
 ```
 
 **3. Execute the Application**
